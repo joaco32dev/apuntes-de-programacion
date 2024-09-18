@@ -1,0 +1,11 @@
+body{
+    background-color:cadetblue;
+}
+/*#id: para identificador*/
+#lalala{
+    color:violet;
+}
+/*.class: para clase*/
+.grupo1{
+    color:rgb(255, 144, 7);
+}

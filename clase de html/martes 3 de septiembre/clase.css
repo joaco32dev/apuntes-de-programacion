@@ -1,0 +1,82 @@
+/*Color y alineado*/
+p.centrado{
+    color:yellowgreen; text-align:center; width: 50%;
+    text-decoration: underline black dotted ;
+    text-shadow:2px 2px 5px;
+    font-family: fantasy;
+    font-weight: 700px;
+    font-size: 20px;
+}
+p.justificado{
+    color: rgb(212, 0, 255); 
+    text-align: justify; 
+    width: 50%;
+    word-spacing: 10px; 
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+p.efecto:hover{
+    color: hotpink;
+    font-size: 20px;
+}
+.botones>{
+    border:none;
+    background-color:#7fffd4;
+    padding: 10px;
+}
+.botones>:hover{
+
+    border:dashed;
+    color: aqua;
+    font-size: 20px;
+    background-color:rgba(0, 0, 0, 0.533);
+}
+ul{
+    display: inline-block;
+    list-style-type:georgian;
+    border-bottom: solid 1px red;
+    border-radius: 4px;
+    padding: 15px;
+    width: 30%;
+}
+.il{
+    border-bottom: solid 1px blue;
+    border-radius: 4px;
+    padding: 15px;
+    width: 30%;
+}
+.lista3{
+    display: inline-block;
+    list-style-type:georgian;
+    border-bottom: solid 1px green;
+    border-radius: 4px;
+    padding: 15px;
+    width: 25%;
+}
+table{
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse:collapse;
+}
+table th{
+    background-color: cadetblue;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+}
+table tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+td{
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+tr:nth-child(even){
+    background-color: rgb(154, 212, 69);
+}

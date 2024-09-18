@@ -1,0 +1,46 @@
+p{
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    overflow: visible;/**/
+    
+}
+img{
+    float: left;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+ul{
+    background-color: #333;
+    list-style-type: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+li{
+    float: left;
+    padding: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+li:hover{
+    background-color: rgb(16, 116, 165);
+    
+}
+#active{
+    background-color: hotpink;
+}
+#active:hover{
+    background-color: rgb(185, 107, 133);
+}
+#bar{
+    margin-bottom: 50px;
+}

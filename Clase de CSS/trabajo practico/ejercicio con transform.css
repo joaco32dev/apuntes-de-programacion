@@ -1,0 +1,86 @@
+body{
+    background-color: darkgrey;
+}
+p{
+    text-align: center;
+    font-size:larger;
+}
+.primero{
+    margin: 10px;
+    margin-top: 10px ;
+    border: 10px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    background-size: 10px 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    border: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 0, 0);
+    transition: background 0.3s ease;
+}
+.segundo{
+    margin: 10px;
+    margin-top: 10px ;
+    border: 10px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    background-size: 10px 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    border: 5px;
+    border-left-style: solid;
+    border-left-color: green;
+    transition: background 0.3s ease;
+}
+.tercero{
+    position: relative;
+    margin: 10px;
+    margin-top: 10px ;
+    border: 10px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    background-size: 10px 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    border: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(20, 3, 253);
+    transition: background 0.3s ease;
+    
+}
+
+.primero:hover{
+    color: white;
+    width: 310px;
+    height: 60px;
+    background-size: 100% 100%;
+    background-position: left;
+    background-image: linear-gradient(to right, red, tomato);
+}
+.segundo:hover{
+    color: white;
+    width: 310px;
+    height: 60px;
+    background-size: 100% 100%;
+    background-position: left;
+    background-image: linear-gradient(to right, green, yellowgreen);
+}
+.tercero:hover{
+    color: white; 
+    width: 310px;
+    height: 60px;
+    background-size: 100% 100%;
+    background-position: left;
+    background-image: linear-gradient(to right, blue, lightblue);
+}
+

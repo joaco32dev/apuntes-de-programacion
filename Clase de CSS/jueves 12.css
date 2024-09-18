@@ -1,0 +1,39 @@
+body{
+    background-color: burlywood;
+}
+.contenedor{
+    background-color: blueviolet;
+    width: 100%;
+    height: 500px;
+    background-image: url(https://placedog.net/400/332?id=38);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-position: cover    estira la imagen a todo el contenedor*/
+    background-size: auto;
+    background-attachment: scroll;
+}
+.gradiente{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(253,29,29,1) 50%, rgba(255,255,255,1) 100%);  /*to top(gradiente desde arriba) to bottom(desde abajo) to rigth(derecha) to left(izquierda)
+    se pueden combinar para hacerlo desde una esquina*/
+    /*si queres gradiente podes hacerlo en: cssgradient.io 
+    */
+
+}
+.box{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+/*efectos que ranformaran el objeto*/
+.box:hover{
+    width: 300px;
+    transform: rotate(45deg);
+    background-color: darkgrey;
+}
